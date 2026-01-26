@@ -23,7 +23,7 @@ import ScrolltoTop from './component/ScrolltoTop'
 import ViewLecture from './pages/ViewLecture'
 import getAllReviews from './customHooks/getAllReviews'
 import SearchWithAi from './pages/SearchWithAi'
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://ai-powered-llm-website.onrender.com"
 function App() {
   getCurrentUser()
   getCreatorCourse()
